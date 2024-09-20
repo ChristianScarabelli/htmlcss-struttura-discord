@@ -72,6 +72,11 @@ img {
     width: 40%;
 }
 
+.big-element {
+    min-height: 1000px;
+    margin: 0 auto;
+}
+
 /* DEBUG */
 
 .main-header.debug {
@@ -101,7 +106,7 @@ img {
     background-color: white;
 }
 
-.layout-2.debug {
+.layout-2, .layout-4.debug {
     background-color: grey;
 }
 
@@ -115,4 +120,8 @@ img {
 
 .col-40 {
     background-color: pink;
+}
+
+.big-element.debug {
+    background-color: green;
 }
