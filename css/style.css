@@ -48,6 +48,14 @@ img {
     justify-content: center;
 }
 
+.main-element {
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.main-section .container {
+    padding: 20px;
+}
 
 /* DEBUG */
 
@@ -64,3 +72,12 @@ img {
     border-style: dotted;
 }
 
+.main-section.debug {
+    background-color: blue;
+}
+
+.main-section .container .debug {
+    max-width: 900px;
+    background-color: pink;
+    border-style: dotted;
+}
