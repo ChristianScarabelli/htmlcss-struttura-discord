@@ -51,10 +51,16 @@ img {
 
 /* DEBUG */
 
-.hd-navbar {
-    background-color: orange;
-}
-
-.main-header {
+.main-header.debug {
     background-color: aqua;
 }
+
+.container.debug {
+    border: 1px solid black;
+}
+
+.hd-navbar.debug {
+    background-color: orange;
+    border-style: dotted;
+}
+
