@@ -88,7 +88,29 @@ img {
 
 .last-layout {
     padding-top: 10px;
-  }
+}
+
+.layout-5 {
+    border-bottom: 1px solid white;
+}
+
+.ft-layout {
+    padding-top: 15px;
+}
+.ft {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container.ft {
+    max-width: 960px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ft-logo, .ft-button {
+    padding: 10px;
+}
 
 /* DEBUG */
 
@@ -131,19 +153,19 @@ img {
     border-style: dotted;
 }
 
-.col-60 {
+.col-60.debug {
     background-color: lightblue;
 }
 
-.col-40 {
+.col-40.debug {
     background-color: pink;
 }
 
-.col-30 {
+.col-30.debug {
     background-color: rgb(201, 134, 146);
 }
 
-.col-20 {
+.col-20.debug {
     background-color: rgb(14, 133, 119);
 }
 
@@ -154,4 +176,17 @@ img {
 
 .col-20.debug {
     border-color: white;
+}
+
+.ft-layout.debug {
+    background-color: rgb(42, 37, 37);
+}
+
+.ft.debug.debug {
+    background-color: beige;
+}
+
+.ft-logo, .ft-button.debug {
+    border-style: dotted;
+    background-color: rgba(255, 0, 0, 0.447);
 }
