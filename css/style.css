@@ -23,7 +23,7 @@ img {
 
 .container {
     max-width: 1000px;
-    padding: 10px 30px;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -31,7 +31,10 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+}
+
+.main-header .container {
+    padding: 10px 30px;
 }
 
 .hd-navbar > .features {
@@ -53,8 +56,18 @@ img {
     margin: 0 auto;
 }
 
-.main-section .container {
-    padding: 20px;
+.layout-1 .row {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
 }
 
 /* DEBUG */
@@ -80,4 +93,20 @@ img {
     max-width: 900px;
     background-color: pink;
     border-style: dotted;
+}
+
+.layout-1.debug {
+    background-color: white;
+}
+
+.row *.debug {
+    border-style: dotted;
+}
+
+.col-60 {
+    background-color: lightblue;
+}
+
+.col-40 {
+    background-color: grey;
 }
