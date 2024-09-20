@@ -1,0 +1,60 @@
+/* RESET RULES  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul , ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* LAYOUT */
+
+.container {
+    max-width: 1000px;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+.hd-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hd-navbar > .features {
+    display: flex;
+    gap: 10px;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+    justify-content: center;
+}
+
+
+/* DEBUG */
+
+.hd-navbar {
+    background-color: orange;
+}
+
+.main-header {
+    background-color: aqua;
+}
