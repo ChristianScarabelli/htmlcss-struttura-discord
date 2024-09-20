@@ -56,7 +56,9 @@ img {
     margin: 0 auto;
 }
 
-.layout-1 .row {
+.layout-1 .row,
+.layout-2 .row,
+.layout-3 .row  {
     min-height: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -95,8 +97,12 @@ img {
     border-style: dotted;
 }
 
-.layout-1.debug {
+.layout-1, .layout-3.debug {
     background-color: white;
+}
+
+.layout-2.debug {
+    background-color: grey;
 }
 
 .row *.debug {
@@ -108,5 +114,5 @@ img {
 }
 
 .col-40 {
-    background-color: grey;
+    background-color: pink;
 }
