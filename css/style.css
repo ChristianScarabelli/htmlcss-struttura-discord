@@ -40,15 +40,7 @@ img {
 .hd-navbar > .features {
     display: flex;
     gap: 10px;
-}
-
-.grow-1 {
-    flex-grow: 1;
-}
-
-.grow-2 {
-    flex-grow: 2;
-    justify-content: center;
+    align-items: center;
 }
 
 .main-element {
@@ -100,6 +92,7 @@ img {
 .ft {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container.ft {
@@ -169,8 +162,8 @@ img {
     background-color: rgb(14, 133, 119);
 }
 
-
-.big-element.debug {
+/* layout 4 */
+.big-element.debug {   
     background-color: green;
 }
 
@@ -190,3 +183,10 @@ img {
     border-style: dotted;
     background-color: rgba(255, 0, 0, 0.447);
 }
+
+
+/* debug solo nel contenitore esterno  */
+
+/* footer col33 2/6 width:calc (100% / 3) + col 16 1/6 width:calc(100% / 6)*/
+
+/* bonus bg ondulato  */
